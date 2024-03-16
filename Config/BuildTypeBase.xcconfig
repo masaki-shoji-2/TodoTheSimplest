@@ -1,0 +1,12 @@
+//
+//  Base.xcconfig
+//  TodoTheSimplest
+//
+//  Created by MasakiShoji on 2024/03/15.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+BASE_BUNDLE_DISPLAY_NAME = ToDo the Simplest
+BASE_BUNDLE_ID = com.dev.masaki.shoji.TodoTheSimplest

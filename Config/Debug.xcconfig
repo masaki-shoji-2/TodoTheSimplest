@@ -1,0 +1,15 @@
+//
+//  Debug.xcconfig
+//  TodoTheSimplest
+//
+//  Created by MasakiShoji on 2024/03/15.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+#include? "BuildTypeBase.xcconfig"
+
+BUNDLE_DISPLAY_NAME = [DEBUG]$(BASE_BUNDLE_DISPLAY_NAME)
+PRODUCT_BUNDLE_IDENTIFIER = $(BASE_BUNDLE_ID).debug
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG
